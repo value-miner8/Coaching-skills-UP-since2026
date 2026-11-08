@@ -13,15 +13,13 @@ import {
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBukV3jDZFyJoplHOXLUfpn4UTaKUGaV_E",
-  authDomain: "coaching-quiz-2026.firebaseapp.com",
-  projectId: "coaching-quiz-2026",
-  storageBucket: "coaching-quiz-2026.firebasestorage.app",
-  messagingSenderId: "874203183794",
-  appId: "1:874203183794:web:2007bf44055f9c950ae7ab",
-  measurementId: "G-BE2FGBR43C",
+ apiKey: "AIzaSyDoT9dOZq6C8I1gcIX8uTNThiXO10Qfi_c",
+  authDomain: "w06-coaching-skills-up.firebaseapp.com",
+  projectId: "w06-coaching-skills-up",
+  storageBucket: "w06-coaching-skills-up.firebasestorage.app",
+  messagingSenderId: "159208724866",
+  appId: "1:159208724866:web:2619eca6c998b838e4979b"
 };
 
 const hasFirebaseConfig = Object.values(firebaseConfig).every(Boolean);
